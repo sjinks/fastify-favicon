@@ -7,11 +7,17 @@
 
 A plugin for [Fastify](https://github.com/fastify/fastify) to eliminate exceptions on requests to `/favicon.ico`.
 
+## Installation
+
+```sh
+npm install --save-dev @wwa/fastify-favicon
+```
+
 ## Usage
 
 ```js
 const fastify = require('fastify')();
-fastify.register(require('fastify-favicon'));
+fastify.register(require('@wwa/fastify-favicon'));
 
 fastify.listen(3000);
 ```
