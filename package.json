@@ -5,10 +5,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjinks/fastify-favicon.git"
+    "url": "git+https://github.com/sjinks/fastify-favicon.git"
   },
   "scripts": {
-    "test": "tap test.js"
+    "test": "tap test.js --cov --coverage-report=clover"
   },
   "keywords": [
     "fastify",

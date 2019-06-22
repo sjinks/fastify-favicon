@@ -8,7 +8,7 @@ tap.test('GET /favicon.ico returns an empty icon', function (t) {
   const fastify = require('fastify')();
   fastify.register(require('./index'));
 
-  t.tearDown(function (t) {
+  t.tearDown(function (/* t */) {
     fastify.close();
   });
 
