@@ -1,6 +1,6 @@
 {
   "name": "@wwa/fastify-favicon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fastify plugin to eliminate thrown errors for /favicon.ico requests",
   "main": "index.js",
   "repository": {
@@ -15,7 +15,7 @@
     "plugin",
     "favicon"
   ],
-  "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name>",
+  "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name> (https://wildwolf.name/)",
   "license": "MIT",
   "peerDependencies": {
     "fastify-plugin": "^1.5.0"
@@ -32,5 +32,11 @@
     "url": "https://github.com/sjinks/fastify-favicon/issues"
   },
   "homepage": "https://github.com/sjinks/fastify-favicon#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ]
 }
