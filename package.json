@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "A fastify plugin to eliminate thrown errors for /favicon.ico requests",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sjinks/fastify-favicon.git"
