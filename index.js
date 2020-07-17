@@ -18,5 +18,5 @@ function plugin (fastify, options, next) {
 }
 
 module.exports = fp(plugin, {
-  fastify: '2.x'
+  fastify: '3.x'
 });

@@ -18,5 +18,5 @@ function plugin(fastify: FastifyInstance, options: fastifyPlugin.PluginOptions, 
 }
 
 export = fastifyPlugin(plugin, {
-    fastify: '2.x'
+    fastify: '3.x'
 });
