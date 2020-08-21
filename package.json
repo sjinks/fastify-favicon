@@ -1,6 +1,6 @@
 {
   "name": "@wwa/fastify-favicon",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A fastify plugin to eliminate thrown errors for /favicon.ico requests",
   "main": "index.js",
   "types": "index.d.ts",
