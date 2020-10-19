@@ -19,18 +19,19 @@
   "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name> (https://wildwolf.name/)",
   "license": "MIT",
   "peerDependencies": {
-    "fastify-plugin": "^2.0.1"
+    "fastify-plugin": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
+    "@types/node": "^14.11.10",
     "fastify": "^3.5.1",
-    "fastify-plugin": "^2.3.4",
+    "fastify-plugin": "^3.0.0",
+    "restore-cursor": "^3.1.0",
     "tap": "^14.10.8"
   },
   "bugs": {
     "url": "https://github.com/sjinks/fastify-favicon/issues"
   },
   "homepage": "https://github.com/sjinks/fastify-favicon#readme",
-  "dependencies": {},
   "files": [
     "index.js",
     "index.d.ts",

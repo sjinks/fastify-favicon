@@ -17,5 +17,5 @@ function plugin(fastify: FastifyInstance, options: unknown, next: (err?: Error) 
 }
 
 export = fastifyPlugin(plugin, {
-    fastify: '3.x'
+    fastify: '2.x || 3.x'
 });
