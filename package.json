@@ -22,11 +22,11 @@
     "fastify-plugin": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.7",
+    "@types/node": "^14.14.10",
     "fastify": "^3.8.0",
     "fastify-plugin": "^3.0.0",
     "restore-cursor": "^3.1.0",
-    "tap": "^14.10.8"
+    "tap": "^14.11.0"
   },
   "bugs": {
     "url": "https://github.com/sjinks/fastify-favicon/issues"
