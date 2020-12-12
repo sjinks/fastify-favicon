@@ -22,8 +22,8 @@
     "fastify-plugin": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.10",
-    "fastify": "^3.9.0",
+    "@types/node": "^14.14.12",
+    "fastify": "^3.9.1",
     "fastify-plugin": "^3.0.0",
     "restore-cursor": "^3.1.0",
     "tap": "^14.11.0"
