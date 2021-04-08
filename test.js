@@ -8,7 +8,7 @@ tap.test('GET /favicon.ico returns an empty icon', function (t) {
   const fastify = require('fastify')();
   fastify.register(require('./index'));
 
-  t.tearDown(function (/* t */) {
+  t.teardown(function (/* t */) {
     fastify.close();
   });
 
@@ -17,8 +17,8 @@ tap.test('GET /favicon.ico returns an empty icon', function (t) {
     url: '/favicon.ico'
   }, function (err, response) {
     t.error(err);
-    t.strictEqual(response.statusCode, 200);
-    t.strictEqual(response.headers['content-type'], 'image/x-icon');
-    t.strictEqual(response.payload.length, 198);
+    t.equal(response.statusCode, 200);
+    t.equal(response.headers['content-type'], 'image/x-icon');
+    t.equal(response.payload.length, 198);
   });
 });
