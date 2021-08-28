@@ -25,7 +25,6 @@
     "@types/node": "^16.0.2",
     "fastify": "^3.10.1",
     "fastify-plugin": "^3.0.0",
-    "restore-cursor": "^3.1.0",
     "tap": "^15.0.2"
   },
   "bugs": {
