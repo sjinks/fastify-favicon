@@ -1,24 +1,27 @@
 'use strict';
 
-const tap = require('tap');
+const { expect } = require('chai');
+const fastify = require('fastify');
 
-tap.test('GET /favicon.ico returns an empty icon', function (t) {
-  t.plan(4);
+it('GET /favicon.ico returns an empty icon', function (done) {
+  const app = fastify();
+  app.register(require('./index'));
 
-  const fastify = require('fastify')();
-  fastify.register(require('./index'));
+  after(() => {
+    app.close();
+  })
 
-  t.teardown(function (/* t */) {
-    fastify.close();
-  });
-
-  fastify.inject({
+  app.inject({
     method: 'GET',
     url: '/favicon.ico'
   }, function (err, response) {
-    t.error(err);
-    t.equal(response.statusCode, 200);
-    t.equal(response.headers['content-type'], 'image/x-icon');
-    t.equal(response.payload.length, 198);
+    try {
+      expect(err).to.be.null;
+      expect(response.statusCode).to.equal(200);
+      expect(response.headers['content-type']).to.equal('image/x-icon');
+      expect(response.payload.length).to.equal(198);
+    } finally {
+      done();
+    }
   });
 });
