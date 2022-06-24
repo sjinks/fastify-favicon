@@ -39,7 +39,7 @@ jobs:
             secret: NPM_TOKEN
             registry_url: https://registry.npmjs.org/
     steps:
-      - name: Prepare source
+      - name: Publish package
         uses: myrotvorets/composite-actions/node-publish@master
         with:
           node-auth-token: ${{ secrets[matrix.secret] }}
