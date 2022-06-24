@@ -1,9 +1,8 @@
 # fastify-favicon
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/badges/build.png?b=master)](https://scrutinizer-ci.com/g/sjinks/fastify-favicon/build-status/master)
-![Build and Test CI](https://github.com/sjinks/fastify-favicon/workflows/Build%20and%20Test%20CI/badge.svg)
+[![Build and Test](https://github.com/sjinks/fastify-favicon/actions/workflows/build.yml/badge.svg)](https://github.com/sjinks/fastify-favicon/actions/workflows/build.yml)
+[![CodeQL Analysis](https://github.com/sjinks/fastify-favicon/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sjinks/fastify-favicon/actions/workflows/codeql-analysis.yml)
+[![Package Audit](https://github.com/sjinks/fastify-favicon/actions/workflows/package-audit.yml/badge.svg)](https://github.com/sjinks/fastify-favicon/actions/workflows/package-audit.yml)
 
 A plugin for [Fastify](https://github.com/fastify/fastify) to eliminate exceptions on requests to `/favicon.ico`.
 
