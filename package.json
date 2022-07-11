@@ -24,7 +24,7 @@
   "devDependencies": {
     "chai": "^4.3.4",
     "fastify": "^4.1.0",
-    "fastify-plugin": "^3.0.0",
+    "fastify-plugin": "^4.0.0",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0"
   },
