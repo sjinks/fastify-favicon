@@ -26,7 +26,7 @@
     "fastify": "^4.1.0",
     "fastify-plugin": "^4.0.0",
     "mocha": "^10.0.0",
-    "nyc": "^15.1.0"
+    "nyc": "^17.0.0"
   },
   "bugs": {
     "url": "https://github.com/sjinks/fastify-favicon/issues"
