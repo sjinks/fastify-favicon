@@ -27,5 +27,5 @@ function plugin (fastify, options, next) {
 }
 
 module.exports = fp(plugin, {
-  fastify: '2.x || 3.x || 4.x'
+  fastify: '2.x || 3.x || 4.x || 5.x',
 });
