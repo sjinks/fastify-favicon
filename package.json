@@ -9,7 +9,7 @@
     "url": "git+https://github.com/sjinks/fastify-favicon.git"
   },
   "scripts": {
-    "test": "nyc --reporter=clover --reporter=text mocha"
+    "test": "node --test --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout --test-reporter=node-reporter-gha --test-reporter-destination=stdout"
   },
   "keywords": [
     "fastify",
@@ -25,8 +25,7 @@
     "@types/node": "^24.0.0",
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.0",
-    "mocha": "^11.0.0",
-    "nyc": "^17.0.0"
+    "node-reporter-gha": "^2.0.5"
   },
   "bugs": {
     "url": "https://github.com/sjinks/fastify-favicon/issues"
