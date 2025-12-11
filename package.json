@@ -22,7 +22,7 @@
     "fastify-plugin": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^25.0.0",
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.0",
     "node-reporter-gha": "^2.0.5"
